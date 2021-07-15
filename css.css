@@ -13,8 +13,6 @@ body {
 }
 
 h1 {
-  position: sticky;
-  top: 0;
   color: #fc030f;
   text-align: center;
   font-family: Comic Sans MS;
@@ -23,6 +21,16 @@ h2{
 	color: black;
   text-align: left;
 }
+.navbar-items {
+	width: 70%;
+	text-align: end;
+	padding-top: 1em;
+}
+.nav-item{
+	padding-right: 20px;
+	color: white;
+	text-decoration: none;
+	}
 ul{
 	font-size: 2em;
 }
