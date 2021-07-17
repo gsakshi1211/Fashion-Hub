@@ -42,6 +42,7 @@ h1{
 	padding-top: 1em;
 	font-weight: bold;
 }
+
 .nav {
   overflow: hidden;
   background-color: black;
@@ -231,22 +232,6 @@ input{
 		text-align: center;
 		flex-direction: column;
 	}
-
-
-	.menu-items{
-		flex-direction: column;
-	}
-	.item-tile{
-		width: 100%;
-		height: auto;
-	}
-
-	.item-tile:hover
-{
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-}
         }
           
         /* Media Query for Tablets Ipads portrait mode */
@@ -261,26 +246,10 @@ input{
 		text-align: center;
 		flex-direction: column;
 	}
-
-
-	.menu-items{
-		flex-direction: column;
-	}
-	.item-tile{
-		width: 100%;
-		height: auto;
-	}
-
-	.item-tile:hover
-{
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-}
         }
           
         /* Media Query for Laptops and Desktops */
-        @media (min-width: 1025px) and (max-width: 1280px){
+        @media  (max-width: 1280px){
             .nav{
 		flex-direction: column;
 		height: auto;
@@ -291,25 +260,8 @@ input{
 		text-align: center;
 		flex-direction: column;
 	}
-
-
-	.menu-items{
-		flex-direction: column;
-	}
-	.item-tile{
-		width: 100%;
-		height: auto;
-	}
-
-	.item-tile:hover
-{
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-}
         }
           
-        /* Media Query for Large screens */
         @media (min-width: 1281px) {
             .nav{
 		flex-direction: column;
@@ -321,20 +273,4 @@ input{
 		text-align: center;
 		flex-direction: column;
 	}
-
-
-	.menu-items{
-		flex-direction: column;
-	}
-	.item-tile{
-		width: 100%;
-		height: auto;
-	}
-
-	.item-tile:hover
-{
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-}
         }
