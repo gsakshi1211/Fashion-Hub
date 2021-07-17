@@ -217,3 +217,124 @@ input{
         transform: scale(0.8);
 }
   }
+
+
+  /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            .nav{
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+		
+	}
+	.navbar-items{
+		text-align: center;
+		flex-direction: column;
+	}
+
+
+	.menu-items{
+		flex-direction: column;
+	}
+	.item-tile{
+		width: 100%;
+		height: auto;
+	}
+
+	.item-tile:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+            .nav{
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+		
+	}
+	.navbar-items{
+		text-align: center;
+		flex-direction: column;
+	}
+
+
+	.menu-items{
+		flex-direction: column;
+	}
+	.item-tile{
+		width: 100%;
+		height: auto;
+	}
+
+	.item-tile:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+        }
+          
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            .nav{
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+		
+	}
+	.navbar-items{
+		text-align: center;
+		flex-direction: column;
+	}
+
+
+	.menu-items{
+		flex-direction: column;
+	}
+	.item-tile{
+		width: 100%;
+		height: auto;
+	}
+
+	.item-tile:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+        }
+          
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+            .nav{
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+		
+	}
+	.navbar-items{
+		text-align: center;
+		flex-direction: column;
+	}
+
+
+	.menu-items{
+		flex-direction: column;
+	}
+	.item-tile{
+		width: 100%;
+		height: auto;
+	}
+
+	.item-tile:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+        }
