@@ -153,20 +153,8 @@ h2,p{
 	text-align: center;
 	padding-bottom: 0.5em;
 }
-.hero-img{
-	width: 100%;
-  max-width: 400px;
-  height: auto;
-}
 input{
 	padding: 0.5em;
 	margin-top: 0.5em;
-}
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
 }
 
