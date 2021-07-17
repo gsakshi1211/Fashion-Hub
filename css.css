@@ -159,6 +159,10 @@ input{
 	margin-top: 0.5em;
 }
 
+.hero-img{
+	width: 100%;
+	height: auto;
+}
 /* Media queries */
 
 @media screen and (max-width: 600px) {
