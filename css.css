@@ -99,7 +99,43 @@ nav .icon-burger .line {
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
-
+nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(0,0,0,.8);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	nav .links a {
+		font-size: 20px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+	
+}
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 700px) {
   .nav a, .nav input[type=text] {
